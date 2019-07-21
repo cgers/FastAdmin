@@ -1,0 +1,20 @@
+{
+  "name": "fastadmin",
+  "version": "1.0.0",
+  "description": "A web suite of tools for the management of student learning and progress in an institution of learning.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgers/FastAdmin.git"
+  },
+  "author": "Craig Gers",
+  "email": "craig.j.gers@gmail.com",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/cgers/FastAdmin/issues"
+  },
+  "homepage": "https://github.com/cgers/FastAdmin#readme"
+}
