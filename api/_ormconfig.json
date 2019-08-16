@@ -1,13 +1,13 @@
 {
-   "name":"ApplicationDb",
-   "type": "postgres",
+   "name":"FastAdminDB-Dev",
+   "type": "mysql",
    "host": "localhost",
-   "port": 5432,
-   "username": "test",
-   "password": "test",
-   "database": "test",
+   "port": 3306,
+   "username": "fstadmin_db_user",
+   "password": "fastadmin_db_user",
+   "database": "fastadmin",
    "synchronize": true,
-   "logging": false,
+   "logging": true,
    "entities": [
       "src/entity/**/*.ts"
    ],
