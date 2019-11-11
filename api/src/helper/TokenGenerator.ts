@@ -11,8 +11,8 @@ export const GenerateToken = (user: IUser): Object => {
     .unix()
   const payload = {
     exp: expires,
-    id: user.idUserGuid,
-    name: user.userName
+    gid: user.idUserGuid,    
+    name: user.name
   }
 
   //Secret

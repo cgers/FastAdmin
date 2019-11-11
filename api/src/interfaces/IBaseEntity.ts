@@ -4,9 +4,9 @@
    have a Created on and a Created by field.
  */
 
-interface BaseEntity {
+interface IBaseEntity {
   createdBy: number
   createdOn: Date
 }
 
-export default BaseEntity
+export default IBaseEntity

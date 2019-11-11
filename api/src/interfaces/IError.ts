@@ -1,10 +1,10 @@
 /**
  * General Interface for field validations. e.g. password field is required.
  */
-interface Error {
+interface IError {
   field: string
   displayField: string
   message: string
 }
 
-export default Error
+export default IError

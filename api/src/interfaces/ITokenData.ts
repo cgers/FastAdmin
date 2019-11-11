@@ -1,10 +1,10 @@
 /**
  * The Interface for content inside a JSON web Token.
  */
-interface tokenData {
+interface ITokenData {
   exp: Date
   iat: Date
-  id: string
+  gid: string
   name: string
 }
-export default tokenData
+export default ITokenData

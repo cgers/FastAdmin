@@ -2,9 +2,9 @@ import * as express from 'express'
 /**
  * Interface for an express application
  */
-interface Application {
+interface IApplication {
   app: express.Application
   port: number
 }
 
-export default Application
+export default IApplication

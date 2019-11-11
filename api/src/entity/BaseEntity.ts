@@ -1,5 +1,5 @@
 import { Column } from 'typeorm'
-import IBaseEntity from '../interfaces/BaseEntity'
+import IBaseEntity from '../interfaces/IBaseEntity'
 
 abstract class BaseEntity implements IBaseEntity {
   @Column('number') public createdBy: number

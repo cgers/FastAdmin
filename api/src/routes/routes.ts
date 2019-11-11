@@ -1,4 +1,4 @@
-import { publicTestDelete, publicTestGet, publicTestPost, privateTestDelete, privateTestGet, privateTestPost } from '../controller/TestController'
+import { publicTestDelete, publicTestGet, publicTestPost, privateTestDelete, privateTestGet, privateTestPost } from '../controller/TestController';
 
 const RoutePath: string = "/api";
 const v1: string = "/v1";
@@ -45,19 +45,19 @@ export const v1_AppRoutes = [
 
 export const v2_AppRoutes = [
     {
-        path: RoutePath + v1 + '/test',
+        path: RoutePath + v2 + '/test',
         method: 'get',
         action: publicTestGet,
         protected: false
     },
     {
-        path: RoutePath + v1 + '/test',
+        path: RoutePath + v2 + '/test',
         method: 'post',
         action: publicTestPost,
         protected: false
     },
     {
-        path: RoutePath + v1 + '/test',
+        path: RoutePath + v2 + '/test',
         method: 'delete',
         action: publicTestDelete,
         protected: false
