@@ -33,7 +33,7 @@
       "reflect-metadata": "^0.1.10",
       "rotating-file-stream": "^1.4.3",
       "sequelize-cli": "^5.5.0",
-      "validator": "^11.1.0"
+      "validator": "^13.7.0"
    },
    "scripts": {
       "server-ts": "tsc",
